@@ -35,5 +35,34 @@ public class CmsSite {
     private String siteWebPath;
     //创建时间
     private Date siteCreateTime;
+    // 页面物理路径
+    private String stringSitePhysicalPath;
 
+    public String getSiteId() {
+        return siteId;
+    }
+
+    public String getSiteName() {
+        return siteName;
+    }
+
+    public String getSiteDomain() {
+        return siteDomain;
+    }
+
+    public String getSitePort() {
+        return sitePort;
+    }
+
+    public String getSiteWebPath() {
+        return siteWebPath;
+    }
+
+    public Date getSiteCreateTime() {
+        return siteCreateTime;
+    }
+
+    public String getStringSitePhysicalPath() {
+        return stringSitePhysicalPath;
+    }
 }

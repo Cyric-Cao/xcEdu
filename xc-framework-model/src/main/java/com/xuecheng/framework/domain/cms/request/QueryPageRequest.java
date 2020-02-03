@@ -20,5 +20,43 @@ public class QueryPageRequest extends RequestData {
     // 模板Id
     private String templateId;
 
+    public void setSiteId(String siteId) {
+        this.siteId = siteId;
+    }
 
+    public void setPageId(String pageId) {
+        this.pageId = pageId;
+    }
+
+    public void setPageName(String pageName) {
+        this.pageName = pageName;
+    }
+
+    public void setPageAliase(String pageAliase) {
+        this.pageAliase = pageAliase;
+    }
+
+    public void setTemplateId(String templateId) {
+        this.templateId = templateId;
+    }
+
+    public String getSiteId() {
+        return siteId;
+    }
+
+    public String getPageId() {
+        return pageId;
+    }
+
+    public String getPageName() {
+        return pageName;
+    }
+
+    public String getPageAliase() {
+        return pageAliase;
+    }
+
+    public String getTemplateId() {
+        return templateId;
+    }
 }

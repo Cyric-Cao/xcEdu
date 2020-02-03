@@ -7,6 +7,15 @@ spring:
     mongodb:
       uri: mongodb://root:123@localhost:27017
       database: xc_cms
-
+  freemarker:
+    cache:  false
+    settings:
+      template_update_delay: 0
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
 
 logging.level.org.springframework.boot.autoconfigure: ERROR

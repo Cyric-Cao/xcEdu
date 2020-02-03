@@ -1,5 +1,6 @@
 package com.xuecheng.framework.domain.cms;
 
+
 import lombok.Data;
 import lombok.ToString;
 import org.springframework.data.annotation.Id;
@@ -57,4 +58,131 @@ public class CmsPage {
     //数据Url
     private String dataUrl;
 
+    public String getSiteId() {
+        return siteId;
+    }
+
+    public String getPageId() {
+        return pageId;
+    }
+
+    public String getPageName() {
+        return pageName;
+    }
+
+    public String getPageAliase() {
+        return pageAliase;
+    }
+
+    public String getPageWebPath() {
+        return pageWebPath;
+    }
+
+    public String getPageParameter() {
+        return pageParameter;
+    }
+
+    public String getPagePhysicalPath() {
+        return pagePhysicalPath;
+    }
+
+    public String getPageType() {
+        return pageType;
+    }
+
+    public String getPageTemplate() {
+        return pageTemplate;
+    }
+
+    public String getPageHtml() {
+        return pageHtml;
+    }
+
+    public String getPageStatus() {
+        return pageStatus;
+    }
+
+    public Date getPageCreateTime() {
+        return pageCreateTime;
+    }
+
+    public String getTemplateId() {
+        return templateId;
+    }
+
+    public List<CmsPageParam> getPageParams() {
+        return pageParams;
+    }
+
+    public String getHtmlFileId() {
+        return htmlFileId;
+    }
+
+    public String getDataUrl() {
+        return dataUrl;
+    }
+
+    public void setSiteId(String siteId) {
+        this.siteId = siteId;
+    }
+
+    public void setPageId(String pageId) {
+        this.pageId = pageId;
+    }
+
+    public void setPageName(String pageName) {
+        this.pageName = pageName;
+    }
+
+    public void setPageAliase(String pageAliase) {
+        this.pageAliase = pageAliase;
+    }
+
+    public void setPageWebPath(String pageWebPath) {
+        this.pageWebPath = pageWebPath;
+    }
+
+    public void setPageParameter(String pageParameter) {
+        this.pageParameter = pageParameter;
+    }
+
+    public void setPagePhysicalPath(String pagePhysicalPath) {
+        this.pagePhysicalPath = pagePhysicalPath;
+    }
+
+    public void setPageType(String pageType) {
+        this.pageType = pageType;
+    }
+
+    public void setPageTemplate(String pageTemplate) {
+        this.pageTemplate = pageTemplate;
+    }
+
+    public void setPageHtml(String pageHtml) {
+        this.pageHtml = pageHtml;
+    }
+
+    public void setPageStatus(String pageStatus) {
+        this.pageStatus = pageStatus;
+    }
+
+    public void setPageCreateTime(Date pageCreateTime) {
+        this.pageCreateTime = pageCreateTime;
+    }
+
+    public void setTemplateId(String templateId) {
+        this.templateId = templateId;
+    }
+
+    public void setPageParams(List<CmsPageParam> pageParams) {
+        this.pageParams = pageParams;
+    }
+
+    public void setHtmlFileId(String htmlFileId) {
+        this.htmlFileId = htmlFileId;
+    }
+
+    public void setDataUrl(String dataUrl) {
+        this.dataUrl = dataUrl;
+    }
 }

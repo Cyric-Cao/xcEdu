@@ -25,7 +25,27 @@ public class CmsTemplate {
     private String templateName;
     //模版参数
     private String templateParameter;
-
     //模版文件Id
     private String templateFileId;
+
+
+    public String getSiteId() {
+        return siteId;
+    }
+
+    public String getTemplateId() {
+        return templateId;
+    }
+
+    public String getTemplateName() {
+        return templateName;
+    }
+
+    public String getTemplateParameter() {
+        return templateParameter;
+    }
+
+    public String getTemplateFileId() {
+        return templateFileId;
+    }
 }
